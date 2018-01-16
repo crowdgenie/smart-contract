@@ -277,7 +277,7 @@ contract GenieToken is AbstractToken {
    * Maximum allowed number of tokens in circulation.
    */
   uint256 constant MAX_TOKEN_COUNT =
-    0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF;
+    60000000;
 
   /**
    * Address of the owner of this smart contract.
@@ -335,7 +335,7 @@ contract GenieToken is AbstractToken {
    * @return number of decimals for this token
    */
   function decimals () constant returns (uint8 result) {
-    return 0;
+    return 16;
   }
 
   /**
